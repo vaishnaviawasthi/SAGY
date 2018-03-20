@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">category</string>
+    <string-array name="Category_select">
+        <item>health development</item>
+        <item>electricity</item>
+        <item>water</item>
+        <item>education</item>
+        <item>agricultural</item>
+        <item>sanitation</item>
+        <item>roads</item>
+        <item>tourist spots</item>
+        <item>culture</item>
+
+    </string-array>
+</resources>

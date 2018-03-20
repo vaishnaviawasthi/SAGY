@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_introduction"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="com.example.ppratibha16.sagy.Introduction">
+
+    <TextView
+        android:text="What is the app all about?"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"  />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginTop="90dp"
+        android:id="@+id/textView3"
+        tools:text="The SAGY app is developved with the purpose of showing all the developments happening in the respective adopted villages by the Hon'ble MP's to turn them into an adarsh gram(ideal village).This app aims at providing the important detais of developments under various departments like cultural,education,health,road,electricity and water.The app in all is a sumarraised journal to the common man who can view the details and can also provide feedback.The app will also interest the tourists as the app will also display the culture,tourist spots so the can have a proper insight into showing what a village looks like."
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_dark" />
+
+    <Button
+        android:text="next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="77dp"
+        android:id="@+id/button2"
+        tools:text="next" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/images"
+        android:id="@+id/imageView"
+        android:layout_above="@+id/button2"
+        android:layout_toStartOf="@+id/textView3"
+        android:layout_alignTop="@+id/textView3" />
+
+</RelativeLayout>
